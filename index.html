@@ -3,100 +3,134 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Khader Codes</title>
+  <title>Khader Khan Durrani</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Rajdhani:wght@600&display=swap" rel="stylesheet">
+
   <style>
+    /* RESET */
     * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
     }
 
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: #111;
-      color: #eee;
-      padding: 20px;
-      line-height: 1.6;
+    html, body {
+      height: 100%;
+      width: 100%;
+      font-family: 'DM Sans', sans-serif;
+      background: linear-gradient(120deg, #0f0c29, #302b63, #24243e);
+      background-size: 400% 400%;
+      animation: gradientShift 15s ease infinite;
+      color: #f1f1f1;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+
+    @keyframes gradientShift {
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
     }
 
     header {
       text-align: center;
-      margin-bottom: 40px;
+      padding: 4rem 1rem 2rem;
     }
 
     header h1 {
-      font-size: 2.8rem;
-      margin-bottom: 10px;
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 3rem;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      color: #fff;
+      text-shadow: 0 0 10px #9f5eff, 0 0 20px #9f5eff;
     }
 
-    header p {
+    .tagline {
       font-size: 1.2rem;
-      color: #aaa;
+      color: #c7b7ff;
+      margin-top: 1rem;
     }
 
-    .button-container {
-      margin-top: 20px;
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 2rem;
+      background-color: rgba(255, 255, 255, 0.05);
+      border-radius: 20px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 0 20px rgba(159, 94, 255, 0.3);
     }
 
-    button {
-      padding: 12px 25px;
-      margin: 10px;
-      border: none;
-      background: #444;
-      color: #fff;
-      border-radius: 8px;
-      cursor: pointer;
-      transition: background 0.3s ease;
-      font-size: 1rem;
+    .section {
+      margin-bottom: 2.5rem;
     }
 
-    button:hover {
-      background: #666;
+    .section h2 {
+      font-family: 'Rajdhani', sans-serif;
+      text-transform: uppercase;
+      font-size: 2rem;
+      margin-bottom: 0.8rem;
+      color: #ffffff;
     }
 
-    section {
-      margin: 40px 0;
+    .section p {
+      font-size: 1.1rem;
+      line-height: 1.7;
+      color: #e5e5e5;
     }
 
-    section h2 {
-      font-size: 1.8rem;
-      margin-bottom: 10px;
-      color: #fff;
+    .links {
+      display: flex;
+      gap: 1rem;
+      margin-top: 1.2rem;
     }
 
-    a {
-      color: #61dafb;
+    .links a {
       text-decoration: none;
+      color: #fff;
+      background: #9f5eff;
+      padding: 0.6rem 1rem;
+      border-radius: 12px;
+      font-weight: 600;
+      transition: all 0.3s ease;
     }
 
-    a:hover {
-      text-decoration: underline;
+    .links a:hover {
+      background: #6c29ff;
+      box-shadow: 0 0 12px #6c29ff;
     }
 
     footer {
       text-align: center;
-      padding: 20px 0;
-      margin-top: 40px;
       font-size: 0.9rem;
-      color: #888;
+      padding: 2rem 1rem;
+      color: #aaa;
     }
 
-    @media (max-width: 600px) {
+    @media screen and (max-width: 600px) {
       header h1 {
-        font-size: 2rem;
+        font-size: 2.2rem;
       }
 
-      header p {
+      .section h2 {
+        font-size: 1.4rem;
+      }
+
+      .section p {
         font-size: 1rem;
       }
 
-      button {
+      .links {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .links a {
         width: 100%;
-        font-size: 1rem;
-      }
-
-      section {
-        margin: 30px 0;
+        text-align: center;
       }
     }
   </style>
@@ -104,50 +138,43 @@
 <body>
 
   <header>
-    <h1>Khader Codes</h1>
-    <p>Coding & vibing on the internet 🌐✨</p>
-    <div class="button-container">
-      <a href="https://github.com/xodeadman" target="_blank">
-        <button>GitHub</button>
-      </a>
-      <a href="https://instagram.com/xo.deadman" target="_blank">
-        <button>Instagram</button>
-      </a>
-    </div>
+    <h1>HELLO TO ALL THE MUNCHKINS HERE</h1>
+    <p class="tagline">Building chaos in code 💻⚡</p>
   </header>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      I’m a chill dev just building vibes and websites on the side.
-      Catch me coding, gaming, or sipping on some tea while dreaming up digital universes.
-    </p>
-  </section>
+  <div class="container">
+    <div class="section">
+      <h2>About Me</h2>
+      <p>
+        I'm Khader Khan Durrani, currently studyin' in LBJC, CEC gang.  
+        If I’m not coding or online, I’m probably eating, sleeping, or stuck in college lectures 😵‍💫  
+        I fw Carti, Weeknd, Travis & Kendrick — if you vibe with them, you vibe with me.  
+        Used to be a weeb too, deep in Naruto, Demon Slayer, Death Note and like 30+ others.
+      </p>
+    </div>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <p>
-      Working on cool stuff — from HTML starter sites to spicy scripts. More coming soon 👀
-    </p>
-  </section>
+    <div class="section">
+      <h2>Contact</h2>
+      <p>
+        Wanna collab? Hit me up.
+      </p>
+      <div class="links">
+        <a href="https://instagram.com/xo.deadman" target="_blank">Instagram</a>
+     <a href="https://github.com/xodeadman" target="_blank">GitHub</a>
+        <a href="https://open.spotify.com/user/31cxv5zocwgyoy6kjrpmtyers6iu?si=9d7d221022b84660" target="blank">Spotify</a>
+ 
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>
-      Wanna collab or just say hi? DM me on
-      <a href="https://instagram.com/xo.deadman" target="_blank">Instagram</a>
-      or check my
-      <a href="https://github.com/xodeadman" target="_blank">GitHub</a>.
-    </p>
-  </section>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Spotify</h2>
+      <p>Send me your Spotify ID when ready — I’ll embed it straight in.</p>
+    </div>
+  </div>
 
   <footer>
-    <p>
-      © 2025 Khader Codes. Built with caffeine, chaos & 💻<br />
-      Follow me:
-      <a href="https://github.com/xodeadman" target="_blank">GitHub</a> •
-      <a href="https://instagram.com/xo.deadman" target="_blank">Instagram</a>
-    </p>
+    &copy; 2025 xo.deadman. Made with chaos and coffee.
   </footer>
 
 </body>
